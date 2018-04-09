@@ -14,22 +14,31 @@ if (
 	(shirtLength >= 28) && (shirtLength < 29) && 
 	(shirtSleeve >= 8.13) && (shirtLength < 8.38)
 		)
-	{ console.log ("S") 
+	{ console.log ("S");
 	}
 	else if (
 	(shirtWidth >= 20) && (shirtWidth < 22) &&
 	(shirtLength >= 29) && (shirtLength < 30) && 
 	(shirtSleeve >= 8.38) && (shirtLength < 8.63)
-		) { console.log ("M")
-}	else {console.log("hola")}
- if (
+		) { console.log ("M");
+}	else if (
 	(shirtWidth >= 22) && (shirtWidth < 24) &&
-	(shirtLength >= 30) && (shirtLength > 31) && 
-	(shirtSleeve >= 8.63) && (shirtLength > 8.88)
-			) { console.log ("L")}
-				else if (
+	(shirtLength >= 30) && (shirtLength < 31) && 
+	(shirtSleeve >= 8.63) && (shirtSleeve < 8.88)
+			) { console.log ("L");
+}	else if (
 	(shirtWidth >= 24) && (shirtWidth < 26) &&
-	(shirtLength >= 31) && (shirtLength > 33) && 
-	(shirtSleeve >= 8.88) && (shirtLength > 9.63)
-			) {
-		console.log ("Na") }
+	(shirtLength >= 31) && (shirtLength < 33) && 
+	(shirtSleeve >= 8.88) && (shirtSleeve < 9.63)
+			) {console.log ("XL"); 
+}	else if (
+	(shirtWidth >= 26) && (shirtWidth < 28) &&
+	(shirtLength >= 33) && (shirtLength < 34) && 
+	(shirtSleeve >= 9.63) && (shirtSleeve < 10.13)
+			) {console.log ("2XL"); 
+}	else if (
+	(shirtWidth >= 28) && (shirtWidth < 30) &&
+	(shirtLength >= 34) && (shirtLength < 36) && 
+	(shirtSleeve >= 10.13) && (shirtSleeve < 11)
+			) {console.log ("3XL") } 
+	else {console.log("N/A")} 
