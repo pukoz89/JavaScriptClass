@@ -12,14 +12,14 @@ var shirtSleeve = 8.71;
 if (
 	(shirtWidth >= 18) && (shirtWidth < 20) &&
 	(shirtLength >= 28) && (shirtLength < 29) && 
-	(shirtSleeve >= 8.13) && (shirtLength < 8.38)
+	(shirtSleeve >= 8.13) && (shirtSleeve < 8.38)
 		)
 	{ console.log ("S");
 	}
 	else if (
 	(shirtWidth >= 20) && (shirtWidth < 22) &&
 	(shirtLength >= 29) && (shirtLength < 30) && 
-	(shirtSleeve >= 8.38) && (shirtLength < 8.63)
+	(shirtSleeve >= 8.38) && (shirtSleeve < 8.63)
 		) { console.log ("M");
 }	else if (
 	(shirtWidth >= 22) && (shirtWidth < 24) &&
